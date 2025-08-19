@@ -1,0 +1,39 @@
+{
+  "name": "openpayze",
+  "version": "0.1.7",
+  "description": "Openpayze Javascript package",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "jest",
+    "test:coverage": "jest --coverage"
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "<rootDir>/__tests__/data/",
+      "<rootDir>/__tests__/mock/",
+      "<rootDir>/node_modules/",
+      "<rootDir/index.js"
+    ],
+    "collectCoverage": true,
+    "coverageReporters": [
+      "lcov"
+    ]
+  },
+  "author": "Test Example <test@example.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/solaopz/paymentpage-sdk-js.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "jest": "^23.2.0"
+  },
+  "bugs": {
+    "url": "https://github.com/solaopz/paymentpage-sdk-js/issues"
+  },
+  "homepage": "https://github.com/solaopz/paymentpage-sdk-js#readme"
+}
