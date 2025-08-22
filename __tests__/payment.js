@@ -37,7 +37,7 @@ test('Test OP setters', () => {
   e.customerId = 'customer_341';
   e.forceAcsNewWindow = true;
   e.forcePaymentMethod = 'card';
-  e.languageCode = 'RU';
+  e.languageCode = 'LV';
   e.listPaymentBlock = 'payment_method';
   e.merchantFailUrl = '';
   e.merchantSuccessUrl = '';
@@ -79,7 +79,7 @@ test('Test OP setters', () => {
     account_token: 1,
     baseurl: 'domain.com',
     best_before: 1,
-    billing_address: 'l, 19',
+    billing_address: 'L, 19',
     billing_country: 'LV',
     billing_postal: '123',
     billing_region: 'L obl',
@@ -90,7 +90,7 @@ test('Test OP setters', () => {
     cashier_max_value: 500,
     cashier_min_value: 100,
     cashier_predefined_amounts: '10,20,30',
-    cash_voucher_data: 'eyJ2b3VjaGVyIjoi0LLQsNGD0YfQtdGAIn0=',
+    cash_voucher_data: 'eyJ2b3VjaGVyIjoidmFvdWNoZXIifQ==',
     close_on_missclick: true,
     css_modal_wrap: 'modal-popup',
     customer_city: 'Riga',
